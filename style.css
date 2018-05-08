@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  padding: 0;
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    padding-top: 0;
+    background-color: none;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background-color: rgb(219, 212, 207);
+    background: rgb(115, 190, 212)
+    border-button:3px solid;
+}
+header a{
+color:#ffff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+}
+header ul{
+    margin:0;
+    padding: 0;
+}
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+
+/*
+header #branding h1{
+    margin:auto;
+}
+header nav{
+float:right;
+}
+
+.eco{
+    float: right;
+    padding-top: -30px;
+    margin-top: 30px;
+}
+*/
+#showcase{
+   min-height: 400px;
+   min-width: 300px;
+   background: url("architecture.jpg") no-repeat 0 -400px;
+   margin-top: 20px;
+
+}
+.container h1{
+  text-align: left;
+  padding: -50px;
+}
+.branding img{
+
+}
+/*
+footer{
+    padding: -200px;
+    margin-top: 550px;
+    background-color: cornflowerblue;
+    text-align: center;
+
+}
+.footer{
+
+      padding: -200px;
+      margin-top: 550px;
+      background-color: cornflowerblue;
+      text-align: center;
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 100px;
+  color: #ccc;
+
+}
+*/
+#showcase1{
+   min-height: 400px;
+   min-width: 400px;
+   background: url("adult.jpg") no-repeat 0 -400px;
+   margin-top: 20px;
+
+}
+p {
+  border-bottom:1px dotted;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:none;
+  width: 100%; /* whatever width you want */
+}
+@media (max-width: 960px) {
+  #showcase1 p {
+    width: 80%;
+  }
+  @media (max-width: 960px) {
+    #showcase1 h2 {
+      width: 80%;
+    }
+
+  }
